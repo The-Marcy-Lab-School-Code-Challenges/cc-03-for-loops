@@ -11,17 +11,28 @@
 ## Code Problems
 
 1. Write a function named `countToTen` that console.logs all the integers from 1 to 10. 
-
-2. Write a function named `countFromOne` that takes in an integer argument, and console.logs all the integers from 1 up to the given integer. 
-
-3. Write a function named `countEveryEven` that takes in an integer argument, and console.logs all the *even* integers from 1 up to the given integer, including the given integer. 
 ```
-countEveryEven(10) // logs 2 4 6 8 10
+countToTen() //logs: 1,2,3,4,5,6,7,8,9,10
 ```
 
-4. Write a function named `countEveryOdd` that takes in an integer argument, and console.logs all the *odd* integers from 1 up to the given integer, including the given integer. 
+2. Write a function named `countUpFromOne` that takes in an integer argument, and console.logs all the integers from 1 up to the given integer. 
 ```
-countEveryOdd(10) // logs 1 3 5 7 9
+countUpFromOne(7) //logs: 1,2,3,4,5,6,7
+```
+
+3. Write a function named `countDownFromN` that takes in an integer argument, and console.logs all the integers from the given integer to 1. 
+```
+countDownFromN(7) //logs: 7,6,5,4,3,2,1
+```
+
+4. Write a function named `countEveryEven` that takes in an integer argument, and console.logs all the *even* integers from 1 up to the given integer, including the given integer. 
+```
+countEveryEven(10) //logs: 2 4 6 8 10
+```
+
+5. Write a function named `countEveryOdd` that takes in an integer argument, and console.logs all the *odd* integers from 1 up to the given integer, including the given integer. 
+```
+countEveryOdd(10) // logs: 1 3 5 7 9
 ```
 
 ### Bonus 
