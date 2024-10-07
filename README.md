@@ -38,7 +38,7 @@ countEveryOdd(10) // logs: 1 3 5 7 9
 ### Bonus 
 6. Write a fucntion named `countEvens` that takes in an array of integers and returns the number of integers in the array that are even numbers. 
 ```
-countEven([1,2,3,4,5,6,7,8,9,12]) // returns 5
-countEven([1,2,22,204]) // returns 3
-countEven([1,3,7,17,19]) // returns 0
+countEvens([1,2,3,4,5,6,7,8,9,12]) // returns 5
+countEvens([1,2,22,204]) // returns 3
+countEvens([1,3,7,17,19]) // returns 0
 ```
